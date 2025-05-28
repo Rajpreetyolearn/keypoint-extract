@@ -1,6 +1,11 @@
 streamlit==1.32.0
-langchain==0.1.5
+langchain==0.1.16
 langchain-openai==0.1.1
+langchain-core==0.1.22
+langchain-community==0.0.18
+langchain-text-splitters==0.0.1
+langsmith==0.0.87
+
 openai==1.12.0
 python-dotenv==1.0.0
 pypdf==3.17.1
@@ -18,8 +23,5 @@ opencv-python==4.9.0.80
 fastapi==0.110.0
 uvicorn==0.27.1
 python-multipart==0.0.9
-requests
-langchain-core
-langchain-text-splitters
-langchain-community
-qdrant-client 
+requests==2.31.0
+qdrant-client==1.7.0

@@ -7,7 +7,6 @@ WORKDIR /app
 # Install Python dependencies
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
-RUN apt-get update && apt-get install -y ffmpeg
 
 # Copy the entire project (main.py and any other files)
 COPY . .
